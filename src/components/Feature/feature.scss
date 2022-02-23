@@ -1,0 +1,110 @@
+.feature {
+    width: 100%;
+    max-width: 1920px;
+    display: grid;
+    grid-template-columns: 820px 820px;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 40px;
+    background-color: #fff;
+    margin-top: 100px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    .leftTop {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        margin-top: 76px;
+        > span:first-of-type {
+            font-family: var(--main-font);
+            font-size: 30px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #212121;
+            position: relative;
+            top: -5.6rem;
+        }
+        > span:last-of-type {
+            font-family: var(--second-font);
+            font-size: 63px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ff376d;
+            width: 521px;
+            position: relative;
+            top: -50px;
+            left: 37%;
+        }
+        > p {
+            width: 688px;
+            font-family: var(--main-font);
+            font-size: 14px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.79;
+            letter-spacing: normal;
+            text-align: right;
+            color: #212121;
+            text-align: right;
+            margin-left: 8rem;
+            margin-top: 0;
+        }
+        > button {
+            width: 245px;
+            height: 57px;
+            padding: 17px 35px 16px;
+            border-radius: 13px;
+            background-color: #ff376d;
+            color: #fff;
+            border: none;
+            font-family: var(--main-font);
+            font-size: 20px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #fff;
+            margin-left: auto;
+            margin-top: 16px;
+            cursor: pointer;
+        }
+    }
+    .rightTop {
+        display: flex;
+        justify-content: space-between;
+        > div {
+            > img {
+                width: 390px;
+            }
+        }
+    }
+    .leftBottom {
+        display: flex;
+        justify-content: space-between;
+        > div {
+            > img {
+                width: 390px;
+            }
+        }
+    }
+    .rightBottom{
+        display: flex;
+        justify-content: space-between;
+        > div {
+            > img {
+                width: 390px;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.hero {
+    .hero_img {
+        position: relative;
+        &--xl  {
+            position: absolute;
+            z-index: -1;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            width: 100%;
+            max-width: 1920px;
+        }
+    }
+}
+.hero_img--xl {
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1920px;
+}
+
+@media screen and (min-width: 1921px) {
+    .hero_img--xl {
+        width: 1920px;
+        height: 1080px;
+    }
+}

@@ -1,0 +1,115 @@
+.road {
+    background-color: #212121;
+    width: 100%;
+    height: auto;
+    max-width: 1920px;
+    max-height: 1080px;
+    padding-top: 100px;
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        > span {
+            font-family: var(--second-font);
+            font-size: 70px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ff376d;
+        }
+        > p {
+            width: 708px;
+            font-family: var(--main-font);
+            font-size: 14px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2.14;
+            letter-spacing: normal;
+            text-align: left;
+            color: #fff;
+            margin-top: 3vw;
+        }
+    }
+    .bottom {
+        .swiper {
+            .swiper-wrapper {
+                top: -6vw;
+            }
+            .swiper-button-prev {
+                background-image: url("../../assets/prev.png");
+                width: 130px;
+                height: 130px;
+                position: relative;
+                left: 74%;
+                z-index: 10;
+                cursor: pointer;
+            }
+            .swiper-button-next {
+                background-image: url("../../assets/next.png");
+                width: 130px;
+                height: 130px;
+                position: relative;
+                left: 80%;
+                z-index: 10;
+                cursor: pointer;
+                top: -8.1rem;
+            }
+            .slide {
+                width: 390px !important;
+                height: 528px !important;
+                border-radius: 20px;
+                box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.22);
+                background-color: #2a2a2a;
+                
+                > div:first-of-type {
+                    font-family: var(--main-font);
+                    font-size: 60px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.86;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #fff;
+                    padding-left: 35px;
+                    padding-top: 69px;
+                    padding-right: 35px;
+                }
+                > div:nth-child(2) {
+                    font-family: var(--main-font);
+                    font-size: 30px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.86;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #fff;
+                    padding-left: 35px;
+                }
+                > div:last-of-type {
+                    font-family: var(--main-font);
+                    font-size: 14px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.86;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #fff;
+                    padding-left: 35px;
+                    padding-top: 30px;
+                    padding-right: 30px;
+                }
+            }
+            .slide:first-of-type {
+                margin-left: 100px;
+            }
+        }
+    }
+}

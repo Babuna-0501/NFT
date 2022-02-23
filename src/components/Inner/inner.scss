@@ -1,0 +1,87 @@
+.inner {
+    &_title {
+        font-family: var(--second-font);
+        font-size: 5.208vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+        width: 43.073vw;
+        margin-top: 8vw;
+        margin-left: 7vw;
+    }
+    .btm {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5.729vw;
+        margin-right: 5.729vw;
+        .mutant {
+           &_img {
+                width: 31.250vw;
+                height: 31.250vw;
+            }
+        }
+    }
+    .date {
+        width: 17.708vw;
+        margin-left: 6.250vw;
+        margin-top: -7.031vw;
+        > p {
+            font-family: var(--main-font);
+            font-size: 1.563vw;
+            color: #fff;
+        }
+        > button {
+            width: 8.854vw;
+            height: 2.969vw;
+            border-radius: 13px;
+            background-color: #ff376d;
+            padding: 0.677vw 2.344vw 0.833vw;
+            font-family: var(--main-font);
+            font-size: 1.042vw;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1921px) {
+    .inner_title {
+        font-size: 100px;
+        width: 827px;
+        margin-top: 156px;
+        margin-left: 135px;
+    }
+    .mutant_img {
+        width: 600px !important;
+        height: 600px !important;
+    }
+    .btm {
+        margin-left: 110px !important;
+        margin-right: 110px !important;
+    }
+    .date {
+        width: 339px !important;
+        margin-left: 120px !important;
+        margin-top: -135px !important;
+    }
+    .date p {
+        font-size: 30px !important;
+    }
+    .date button {
+        width: 170px !important;
+        height: 57px !important;
+        font-size: 20px !important;
+        padding: 13px 45px 16px;
+    }
+}
